@@ -1,4 +1,3 @@
-import { ImageSlider } from '@/components/ImageSlider';
 import { Listings } from '@/components/Listings';
 import { Nav } from '@/components/Navbar/Nav';
 // import Image from 'next/image';
