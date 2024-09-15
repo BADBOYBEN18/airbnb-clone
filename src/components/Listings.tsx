@@ -11,7 +11,7 @@ const listingsinfo = [
     viewed: 'Viewed 373 times last week',
     date: 'Oct 18 - 23',
     price: 840,
-    guest: 'Guest Favourite',
+    guest: 'Guest fav',
   },
 
   {
