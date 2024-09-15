@@ -119,9 +119,10 @@ export const Listings = () => {
   return (
     <div className="  max-w-[2054px] m-auto xl:px-20 md:px-10 sm:px-2 px-4 py-10 grid grid-cols-1 place-items-center sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 ">
       {listingsinfo.map(
-        ({ location, rating, viewed, date, price, guest, src }) => (
-          <div>
+        ({ location, rating, viewed, date, price, guest, src }, index) => (
+          <div key={index}>
             <ListingsCard
+              key={index}
               src={src}
               location={location}
               rating={rating}

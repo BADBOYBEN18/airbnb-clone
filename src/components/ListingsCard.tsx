@@ -5,6 +5,7 @@ import { BsStarFill } from 'react-icons/bs';
 import { CiHeart } from 'react-icons/ci';
 
 interface ListingsCardsProps {
+  key: number;
   location: string;
   src: string;
   rating: number;
